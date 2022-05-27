@@ -1,0 +1,8 @@
+* The Entirety Of App Academy Curriculum Implemented in 6 Languages
+Languages used are as follows:
+- Javascript
+- Python
+- C
+- Golang
+- LISP (racket)
+- Haskell
