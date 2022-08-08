@@ -23,3 +23,17 @@ addOrMult :: (Num a) => String -> a -> a -> a
 addOrMult str a b
   | str == "add" = a + b
   | str == "mult" = a * b
+
+-- 3: Booleans Exercise
+testBools :: String -> Bool -> Bool -> Bool
+testBools str a b
+  | str == "and" = a && b
+  | otherwise = a || b
+
+-- 4: Variables (lel, not how haskell works)
+introMe :: String -> String -> Integer -> String
+introMe fName lName age =
+  concat [intro, fName, " ", lName, fluff, show $ age]
+  where
+    fluff = ", you are "
+    intro = "Hello "
