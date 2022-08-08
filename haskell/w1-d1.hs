@@ -37,3 +37,11 @@ introMe fName lName age =
   where
     fluff = ", you are "
     intro = "Hello "
+
+-- Slight digression for crazy shit
+crazyShit :: Int -> [Int]
+crazyShit x = take x (map (^2) [0..])
+
+-- Comprehensions : all even squares up to x
+crazyShit2 :: Int -> [Int]
+crazyShit2 x = take x [a^2 | a <- [0..], even a]
